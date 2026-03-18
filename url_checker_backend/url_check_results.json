@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://www.google.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.microsoft.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.github.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.amazon.com",
+    "status": "unhealthy",
+    "status_code": 503
+  },
+  {
+    "url": "https://www.wikipedia.org",
+    "status": "unhealthy",
+    "status_code": 403
+  },
+  {
+    "url": "https://www.facebook.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.youtube.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.twitter.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.reddit.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.stackoverflow.com",
+    "status": "healthy",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.testdomain-one.com",
+    "status": "unreachable",
+    "status_code": null
+  },
+  {
+    "url": "https://www.invalid-test-domain.com",
+    "status": "unreachable",
+    "status_code": null
+  },
+  {
+    "url": "https://www.unreachable-site-12345.com",
+    "status": "unreachable",
+    "status_code": null
+  },
+  {
+    "url": "https://www.fake-website-xyz.com",
+    "status": "unreachable",
+    "status_code": null
+  }
+]

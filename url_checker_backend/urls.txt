@@ -1,0 +1,14 @@
+https://www.google.com
+https://www.microsoft.com
+https://www.github.com
+https://www.amazon.com
+https://www.wikipedia.org
+https://www.facebook.com
+https://www.youtube.com
+https://www.twitter.com
+https://www.reddit.com
+https://www.stackoverflow.com
+https://www.testdomain-one.com
+https://www.invalid-test-domain.com
+https://www.unreachable-site-12345.com
+https://www.fake-website-xyz.com
