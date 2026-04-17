@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+WORKDIR /service
+
+COPY requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+# Intentionally binds to localhost inside container.
+CMD ["uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000", "--reload"]

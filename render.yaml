@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: url-checker
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: API_KEY
+        value: change-me-in-production
+      - key: DEBUG
+        value: "false"
